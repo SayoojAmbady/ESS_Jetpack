@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
 
-    private const val BASE_URL = "https://uatonpay.manappuram.com/app_mobapp/Data_Service.asmx/"
+    private const val BASE_URL = "https://uatonpay.manappuram.com/appservice/Data_Service.asmx/"
 
     val apiService: ApiService by lazy {
 
